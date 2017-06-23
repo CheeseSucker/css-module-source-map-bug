@@ -1,0 +1,23 @@
+{
+  "name": "css-typings-bug",
+  "version": "1.0.0",
+  "description": "Reproduction for sourcemap bug in typings-for-css-modules-loader",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "author": "CheeseSucker",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.2.0",
+    "typescript": "^2.3.4",
+    "typings-for-css-modules-loader": "^1.5.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.5.0"
+  }
+}

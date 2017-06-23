@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "sourceMap": true
+  },
+  "files": ["src/index.ts", "src/index.d.ts"]
+}
